@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio - Restaurante Elegância</title>
+  <link rel="stylesheet" href="../static/style2.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">Cardápio</h1>
+  </header>
+  <button id="setinha"><img src="../imagens/setinha.png
+    " alt="seta para voltar" onclick="returnTomainMenu()"></button>
+  <main class="menu-page">
+    <section id="entradas" class="menu-section">
+      <h2>Entradas</h2>
+      <div class="menu-items">
+        <div class="item">
+          <img src="entrada1.jpg" alt="Imagem da Entrada 1" class="menu-image">
+          <h3>Entrada 1</h3>
+          <p>Descrição da entrada.</p>
+        </div>
+        <div class="item">
+          <img src="entrada2.jpg" alt="Imagem da Entrada 2" class="menu-image">
+          <h3>Entrada 2</h3>
+          <p>Descrição da entrada.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="principais" class="menu-section">
+      <h2>Pratos Principais</h2>
+      <div class="menu-items">
+        <div class="item">
+          <img src="../imagens/prato-1.png" alt="Imagem do Prato Principal 1" class="menu-image">
+          <h3>Prato Principal 1</h3>
+          <p>Descrição do prato.</p>
+        </div>
+        <div class="item">
+          <img src="../imagens/prato-2.png" alt="Imagem do Prato Principal 2" class="menu-image">
+          <h3>Prato Principal 2</h3>
+          <p>Descrição do prato.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobremesas" class="menu-section">
+      <h2>Sobremesas</h2>
+      <div class="menu-items">
+        <div class="item">
+          <img src="sobremesa1.jpg" alt="Imagem da Sobremesa 1" class="menu-image">
+          <h3>Sobremesa 1</h3>
+          <p>Descrição da sobremesa.</p>
+        </div>
+        <div class="item">
+          <img src="sobremesa2.jpg" alt="Imagem da Sobremesa 2" class="menu-image">
+          <h3>Sobremesa 2</h3>
+          <p>Descrição da sobremesa.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Restaurante Exemplo. Todos os direitos reservados.</p>
+  </footer>
+  <script>
+    function returnTomainMenu(){
+        window.location.href = "main.html"
+    }
+  </script>
+</body>
+</html>
