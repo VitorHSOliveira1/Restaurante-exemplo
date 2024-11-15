@@ -1,0 +1,140 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #800020;
+  background-color: #FDFDFD;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #800020;
+  color: #FFF;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 1.8rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li {
+  margin: 0 1rem;
+}
+
+.nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #C08081;
+  color: #FFF;
+  position: relative;
+}
+
+.banner .banner-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.banner h2 {
+  margin-top: 1rem;
+}
+
+/* Menu */
+.menu {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.menu .menu-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu .item {
+  width: 30%;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.menu .menu-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+/* Sobre Nós */
+.about {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.about .about-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Contato */
+.contact {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form label {
+  margin-top: 1rem;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.contact form button {
+  background-color: #800020;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #800020;
+  color: #FFF;
+  text-align: center;
+  padding: 1rem;
+}
