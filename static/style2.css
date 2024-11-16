@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +11,7 @@
     color: #800020;
     background-color: #FDFDFD;
   }
-  
-  /* Cabeçalho */
+
   .header {
     background-color: #800020;
     color: #FFF;
@@ -24,7 +23,7 @@
     font-size: 2rem;
   }
   
-  /* Botão de retorno */
+
   #setinha {
     position: fixed;
     top: 1rem;
@@ -44,8 +43,7 @@
   #setinha:hover {
     transform: scale(1.1);
   }
-  
-  /* Página do Menu */
+
   .menu-page {
     padding: 2rem 1rem;
   }
